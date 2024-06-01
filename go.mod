@@ -61,7 +61,7 @@ require (
 	github.com/vmihailenco/taskq/v3 v3.2.9
 	golang.org/x/oauth2 v0.16.0
 	golang.org/x/sync v0.6.0
-	golang.org/x/text v0.14.0
+	golang.org/x/text v0.15.0
 	gonum.org/v1/gonum v0.15.0
 	google.golang.org/api v0.152.0
 	google.golang.org/grpc v1.62.1
