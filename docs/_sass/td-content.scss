@@ -1,20 +1,43 @@
 // FONT styles in td-content section
 
 .td-content {
-  & > h1 {
+  &>h1 {
     font-weight: 700;
     margin-bottom: 1.6rem;
+    
+    
   }
 
-  & > h2 {
+  &>h2 {
     font-weight: 400;
     margin: 1.2rem 0 1.6rem;
+   
   }
 
   & h3 {
     margin: 1.2rem 0 1.6rem;
     font-weight: 400;
+    
   }
+  @media (max-width: 320px) {
+    & > h1 {
+      font-size: 1.5rem; 
+    }
+
+    & > h2 {
+      font-size: 1.3rem; 
+      margin: 1rem 0 1.2rem; 
+    }
+
+    & > h3 {
+      font-size: 1.1rem; 
+      margin: 0.8rem 0 1rem; 
+    }
+    & > h4 {
+      font-size: 1rem; 
+    }
+  }
+
 }
 
 ///////////////// Code Terminal /////////////////////////////
@@ -27,21 +50,19 @@
 [data-termynal] {
   width: 100% !important;
   max-width: 100%;
-  background: linear-gradient(
-    to right top,
-    #3d3d3d,
-    #343434,
-    #2b2b2b,
-    #222222,
-    #1a1a1a,
-    #181818,
-    #161616,
-    #141414,
-    #181818,
-    #1c1c1c,
-    #212121,
-    #252525
-  );
+  background: linear-gradient(to right top,
+      #3d3d3d,
+      #343434,
+      #2b2b2b,
+      #222222,
+      #1a1a1a,
+      #181818,
+      #161616,
+      #141414,
+      #181818,
+      #1c1c1c,
+      #212121,
+      #252525);
   // color: var(--color-text);
   box-shadow: var(--box-shadow-primary);
   font-size: 16px;
@@ -57,7 +78,7 @@
   height: auto !important;
   min-height: 21rem !important;
 
-  & > * {
+  &>* {
     color: #fff;
   }
 
@@ -144,4 +165,3 @@
     opacity: 0;
   }
 }
-

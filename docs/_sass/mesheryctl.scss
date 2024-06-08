@@ -4,6 +4,7 @@ table.mesherycomponents {
     background-color: $charcoal;
     color: white;
   }
+
   td.childcomponent {
     color: white;
     background-color: $tealblue;
@@ -18,17 +19,30 @@ table.mesherycomponents {
 div.prereqs {
   background-color: $charcoal;
   font-size: 1.5rem;
-  & > *,
-  & > * > * {
+
+  &>*,
+  &>*>* {
     color: #ddd;
     margin-top: 0;
+    // font-size: 1.5rem;
+
   }
+
   color: #ddd;
-  margin: 20px;
+  margin: 0.5rem;
   padding: 15px;
   border-radius: 0.3rem;
+
+  @media (max-width: 320px) {
+    &>h4 {
+      font-size: 1.2rem;
+    }
+
+
+  }
 }
+
+
 a.meshery-light {
   color: $keppel;
 }
-
