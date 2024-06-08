@@ -20,12 +20,10 @@ div.prereqs {
   background-color: $charcoal;
   font-size: 1.5rem;
 
-  &>*,
-  &>*>* {
+  & > *,
+  & > * > * {
     color: #ddd;
     margin-top: 0;
-    // font-size: 1.5rem;
-
   }
 
   color: #ddd;
@@ -34,15 +32,13 @@ div.prereqs {
   border-radius: 0.3rem;
 
   @media (max-width: 320px) {
-    &>h4 {
+    & > h4 {
       font-size: 1.2rem;
     }
-
-
   }
 }
-
 
 a.meshery-light {
   color: $keppel;
 }
+

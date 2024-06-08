@@ -30,7 +30,7 @@
   border-width: 0 0 0 4px;
   font-size: 1rem;
 
-  & .alert-heading>*,
+  & .alert-heading > *,
   & .alert-heading {
     color: #479de7;
     margin: 0;
@@ -45,7 +45,7 @@
   border-width: 0 0 0 4px;
   font-size: 1rem;
 
-  & .alert-heading>*,
+  & .alert-heading > *,
   & .alert-heading {
     color: #f7820a;
     margin: 0;
@@ -55,14 +55,14 @@
 
 .alert-danger {
   border-style: solid;
-  border-color: #CC0000;
+  border-color: #cc0000;
   background-color: #ea9999;
   border-width: 0 0 0 4px;
   font-size: 1rem;
 
-  & .alert-heading>*,
+  & .alert-heading > *,
   & .alert-heading {
-    color: #CC0000;
+    color: #cc0000;
     margin: 0;
     margin-bottom: 1rem;
   }
@@ -75,7 +75,7 @@
   border-width: 0 0 0 4px;
   font-size: 1rem;
 
-  & .alert-heading>*,
+  & .alert-heading > *,
   & .alert-heading {
     color: #22bb33;
     margin: 0;
@@ -90,7 +90,7 @@
   border-width: 0 0 0 4px;
   font-size: 1rem;
 
-  & .alert-heading>*,
+  & .alert-heading > *,
   & .alert-heading {
     color: #1976d2;
     margin: 0;
@@ -100,14 +100,14 @@
 
 .alert-secondary {
   border-style: solid;
-  border-color: #9FA6B2;
+  border-color: #9fa6b2;
   background-color: #d8dbe0;
   border-width: 0 0 0 4px;
   font-size: 1rem;
 
-  & .alert-heading>*,
+  & .alert-heading > *,
   & .alert-heading {
-    color: #9FA6B2;
+    color: #9fa6b2;
     margin: 0;
     margin-bottom: 1rem;
   }
@@ -120,7 +120,7 @@
   border-width: 0 0 0 4px;
   font-size: 1rem;
 
-  & .alert-heading>*,
+  & .alert-heading > *,
   & .alert-heading {
     color: var(--color-secondary-light);
     margin: 0;
@@ -135,7 +135,7 @@
   border-width: 0 0 0 4px;
   font-size: 1rem;
 
-  & .alert-heading>*,
+  & .alert-heading > *,
   & .alert-heading {
     color: var(--color-secondary-medium);
     margin: 0;
@@ -149,17 +149,17 @@
 }
 
 @media (min-width: 992px) {
-
   .td-max-width-on-larger-screens,
-  .td-content>pre,
-  .td-content>.highlight,
-  .td-content>.lead,
-  .td-content>h1,
-  .td-content>h2,
-  .td-content>blockquote,
-  .td-content>dl dd,
+  .td-content > pre,
+  .td-content > .highlight,
+  .td-content > .lead,
+  .td-content > h1,
+  .td-content > h2,
+  .td-content > blockquote,
+  .td-content > dl dd,
   .td-content .footnotes,
-  .td-content>.alert {
+  .td-content > .alert {
     max-width: 100%;
   }
 }
+
